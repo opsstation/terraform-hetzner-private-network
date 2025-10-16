@@ -30,8 +30,8 @@ variable "name" {
 }
 
 variable "attributes" {
-  type = list(string)
-  default = [""]
+  type        = list(string)
+  default     = [""]
   description = "use for extra tags."
 }
 
