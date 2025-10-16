@@ -19,7 +19,7 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = ""
+  default     = null
   description = "ManagedBy, eg 'OpsStation'"
 }
 
@@ -45,12 +45,6 @@ variable "ip_range" {
   type        = string
   default     = "10.10.0.0/16"
   description = "The IP range to give to the new network. By default it's 10.10.0.0/16 meaning the entire private network ip range."
-}
-
-variable "labels" {
-  type        = map(string)
-  default     = {}
-  description = "Labels to attach to the new network."
 }
 
 variable "delete_protection" {
