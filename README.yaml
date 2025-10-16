@@ -24,7 +24,7 @@ badges:
     url: "LICENSE"
 
   - name: "Terraform Version"
-    image: "https://img.shields.io/badge/Terraform-1.6%2B-purple.svg?logo=terraform"
+    image: "https://img.shields.io/badge/Terraform-1.13%2B-purple.svg?logo=terraform"
     url: "#"
 
   - name: "CI Status"
