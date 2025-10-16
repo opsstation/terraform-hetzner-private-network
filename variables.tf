@@ -31,7 +31,7 @@ variable "name" {
 
 variable "attributes" {
   type        = list(string)
-  default     = null
+  default     = [""]
   description = "use for extra tags."
 }
 

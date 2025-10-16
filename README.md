@@ -1,4 +1,4 @@
-# 🛰️ terraform-hetzner-private-network
+# 🛰️ Terraform-Hetzner-Private-Network
 
 [![OpsStation](https://img.shields.io/badge/Made%20by-OpsStation-blue?style=flat-square&logo=terraform)](https://www.opsstation.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)

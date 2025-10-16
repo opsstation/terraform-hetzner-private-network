@@ -1,6 +1,6 @@
 # Terraform version
 terraform {
-  required_version = ">= 1.6.6"
+  required_version = ">= 1.13.3"
 
   required_providers {
     hcloud = {

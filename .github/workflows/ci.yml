@@ -19,7 +19,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
         with:
-          terraform_version: 1.6.6
+          terraform_version: 1.13.3
 
       # Validate formatting
       - name: Terraform Format Check
@@ -33,8 +33,8 @@ jobs:
       - name: Terraform Validate
         run: terraform validate -no-color
 
-      # (Optional) Terraform Plan — for visibility only
-      - name: Terraform Plan
-        run: terraform plan -no-color
-        env:
-          TF_LOG: WARN
+#      # (Optional) Terraform Plan — for visibility only
+#      - name: Terraform Plan
+#        run: terraform plan -no-color
+#        env:
+#          TF_LOG: WARN
